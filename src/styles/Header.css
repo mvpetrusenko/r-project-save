@@ -1,0 +1,31 @@
+/* Header styles */
+header.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    background-color: lightsalmon;
+    border: 2px solid lightgreen;
+    z-index: 1000; /* Ensure the header stays on top */
+    overflow: hidden; /* Ensures the header contains the floated elements */
+    height: 150px;
+}
+
+/* Logo styles */
+.logo {
+    float: left;
+    padding: 10px;
+    margin: 5px;
+    width: 100px;
+    height: 100px;
+}
+
+/* H1 styles */
+h1 {
+    margin: 0;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}

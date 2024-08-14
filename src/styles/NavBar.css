@@ -1,0 +1,46 @@
+/* src/components/NavBar.css */
+.navbar { 
+    flex: 0 0 15%; /* 15% width for the nav */
+    padding: 20px;
+    background-color: #42c9ff;
+  } 
+
+  nav ul {
+    list-style-type: none; /* Remove bullets */
+    padding: 0; /* Remove default padding */
+    margin: 30px; /* Remove default margin */
+    width: 200px; /* Set a width for the vertical nav */
+  }
+  
+  nav li {
+    margin: 20px 0; /* Space out list items */
+  }
+  
+  nav a {
+    text-decoration: none; /* Remove underline from links */
+    color: #333; /* Link color */
+    font-weight: bold; 
+    text-align: center;
+  }
+  
+  /* .navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+  }
+  
+  .navbar li {
+    margin: 0 15px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+  }
+  
+  .navbar a:hover {
+    color: darkblue;
+  }
+   */
